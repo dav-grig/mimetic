@@ -126,6 +126,8 @@ echo "Building done."
 
 echo "Cleaning up..."
 rm -rf ${BASEDIR}/src/mimetic-${VERSION}
+rm -rf ${BASEDIR}/bin/
+rm -rf ${BASEDIR}/include/mimetic/
 
 echo "Done."
 
